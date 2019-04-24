@@ -9,7 +9,7 @@ public interface IredBlackTree <T> {
 	public List<T> getPreOrder();
 	public boolean existe(T elemt);
     public T bsucar(T elemt);
-    public  redBlackNode<T> getRoot();
+    public T getRoot();
     public int getWeight();
     public int getHeight();
     public T getMin();
